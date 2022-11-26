@@ -1,0 +1,332 @@
+# encoding: utf-8
+# Decoded by HackerModePro tool...
+# Copyright: PSH-TEAM
+# Follow us on telegram ( @psh_team )
+
+import os
+
+try:
+    import requests
+    import user_agent
+except ImportError as error :
+    os.system('pip install requests')
+    os.system('pip install user_agent')
+    exit()
+import requests
+import time
+from user_agent import generate_user_agent
+import random
+from time import sleep
+import os
+a = 0
+z = 0
+t = 0
+r = requests.session()
+def ooo ():
+    global a,z,t
+    user1 ='alizaidahmeadkaraer2_.'
+    user2 = '123456789'
+    
+
+#The tools free zaid kareem 
+
+            
+    sl = int(input('Enter Your sleep : '))
+
+    
+
+    url = 'https://login.yahoo.com/account/module/create?validateField=yid'
+    while True:
+        user = str(''.join(random.choice(user1)for i in range(5))).lower()
+        #use = str(''.join(random.choice(user2)for i in range(2)))
+        #random choice email ok in yahoo 
+        #user = str(iuser)+use
+        
+
+
+        head = {
+            'Accept': '*/*',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Connection': 'keep-alive',
+            'Content-Length': '17973',
+            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Cookie': 'APID=UP139a7583-ebf0-11eb-b505-06ebe7a65878; B=1gu92j5gg4sv7&b=3&s=64; A1=d=AQABBCoF-2ACEDfMWHRNdZQ9oaAHUO4YHqMFEgEBAQFW_GAEYQAAAAAA_eMAAAcI53MCYZkieRg&S=AQAAAuJmx1yIDVMiY71k2AGooYk; A3=d=AQABBCoF-2ACEDfMWHRNdZQ9oaAHUO4YHqMFEgEBAQFW_GAEYQAAAAAA_eMAAAcI53MCYZkieRg&S=AQAAAuJmx1yIDVMiY71k2AGooYk; GUC=AQEBAQFg_FZhBEIc3QQ6; cmp=t=1627550703&j=0; APIDTS=1627550737; A1S=d=AQABBCoF-2ACEDfMWHRNdZQ9oaAHUO4YHqMFEgEBAQFW_GAEYQAAAAAA_eMAAAcI53MCYZkieRg&S=AQAAAuJmx1yIDVMiY71k2AGooYk&j=WORLD; AS=v=1&s=9z9sgq95&d=A6103d241|eavlddr.2Sqtm1snR4vumZPgWEv2CX8ETv8qsCVpXUOAi6BcDaqYAawFRdXZOH3x1ZhIOOPANiSybHZ1j1IBJfKp_yUQeVT2a7U2iFeceXk3DV8Yf6fdA4Mb3M_1A3WY2rpfLpkN2geA1AHRb_QuK0p_gvRBC25hCJqX6_BqNWBCQZ40y2vcTOUrMHZQRGCPbygJ4jCC1pmj16D_TNVaFo68GkkgrxHiFpLQEP9zBsfEM9g8FM8Qd3Gs8oJHQRyvyel09x3uEdniEFCXR93nRCcOMMKCI7xvW239gVcz1Gs_5hmZv6aql00Zge0HJaK6YKPDg9Q7rFfMe7pJry4gCuNMiq_bH9TeBHQEGjqLCJR_d8hcSFHxUnNah4D8.hwV7o1hyYUKQl2Pw6aVKPizRyscmuz0Rwa1LUKGV0O2ls2MSsR4g4TzVlLObvUuKBdrdIJJD3Em1NsNsXKj3uyr.XgZV3E09rJQbldIcePNMPkT7jJjydoGuIBVbqutW0MgHN5IShbRcy6cVifEmil4551or5xaGO5kNpIDCbjUmhD8.MnIfBGRlSIITVGGoQhj3l5TBA742dFc_zcZJmtF5XIrHTr_wMpbpc3ZzD1SgWTDMvySFcsTwH8DdIPhUw4c5QUfyh0kECQFV6OG2M9B06c1wayVg_OiVhy6B6u8Q5AHjbRhsacLtI8K7KxG3JA6oxXmOla3MUX35XvU2axN9DChrM3gpJlJYgmqxV454FF23dysnz4sixK8tvwUc.4EiOU_5OfNGmgZpA.MiCif_oYX3m92DAi38QIl~A',
+            'Host': 'login.yahoo.com',
+            'Origin': 'https://login.yahoo.com',
+            'Referer': 'https://login.yahoo.com/account/create?.lang=ar-JO&src=homepage&specId=yidReg&done=https%3A%2F%2Fwww.yahoo.com',
+            'sec-ch-ua': '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"',
+            'sec-ch-ua-mobile': '?0',
+            'Sec-Fetch-Dest': 'empty',
+            'Sec-Fetch-Mode': 'cors',
+            'Sec-Fetch-Site': 'same-origin',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+            'X-Requested-With': 'XMLHttpRequest'
+        }
+        data = {
+            'browser-fp-data': '{"language":"en-US","colorDepth":24,"deviceMemory":8,"pixelRatio":1,"hardwareConcurrency":2,"timezoneOffset":-180,"timezone":"Asia/Baghdad","sessionStorage":1,"localStorage":1,"indexedDb":1,"openDatabase":1,"cpuClass":"unknown","platform":"Win32","doNotTrack":"unknown","plugins":{"count":3,"hash":"e43a8bc708fc490225cde0663b28278c"},"canvas":"canvas winding:yes~canvas","webgl":1,"webglVendorAndRenderer":"Google Inc.~Google SwiftShader","adBlock":0,"hasLiedLanguages":0,"hasLiedResolution":0,"hasLiedOs":0,"hasLiedBrowser":0,"touchSupport":{"points":0,"event":0,"start":0},"fonts":{"count":49,"hash":"411659924ff38420049ac402a30466bc"},"audio":"124.04347527516074","resolution":{"w":"1366","h":"768"},"availableResolution":{"w":"728","h":"1366"},"ts":{"serve":1627553991633,"render":1627553997166}}',
+            'specId': 'yidreg',
+            
+            'crumb': 'rak/FdAmWa5',
+            'acrumb': '9z9sgq95',
+            'done': 'https://www.yahoo.com',
+            
+            'attrSetIndex': '0',
+            'tos0': 'oath_freereg|xa|ar-JO',
+            
+            'yid': user,
+            'password': 'zaidkaream1',
+            'shortCountryCode': 'AF',
+            
+            
+        }
+        req = requests.post(url,headers=head,data=data).text
+        #print(req)
+        if ('"yid"') in req:
+            #The checker Email Yahoo
+            a +=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {user}')
+            sleep(sl)
+        elif ('"birthDate"') in req:
+            z+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {user}')
+            with open('k.txt','a') as f8:
+                f8.write(f'{user}@yahoo.com\n')
+def www():
+#The Tools Free zaid kareem 
+    global a,z,t
+    took = input('Enter Your Tok Boot : ')
+    
+    if took == '':
+        print('input.exit,!')
+        exit(time.sleep(2))
+    elif took in range(3):
+        exit('exit2')
+        
+    try:
+
+        iddd = input('Enter Your ID Accunts : ')
+        
+        if iddd == '':
+            print('Input/.')
+            exit(time.sleep(2))
+    except ValueError as error :
+        print('No string..!intsager plaess.')
+        exit()
+
+    #sl = input('Enter Your sleep : ')
+    
+    zaid = open('k.txt','r+').read().splitlines()
+    for zaid in zaid:
+
+        
+        
+        c ='https://www.instagram.com/accounts/login/ajax/'
+        head1 = {
+            'accept': '*/*',
+            'accept-encoding': 'gzip, deflate, br',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-length': '336',
+            'content-type': 'application/x-www-form-urlencoded',
+            'cookie': 'mid=YPvYkQALAAH7ZlNgkXiBnW6y7AOy; ig_did=1C396C9B-7DC7-463E-A68B-FE991198F88A; ig_nrcb=1; shbid="944\0546317830362\0541658653745:01f7bf09c30c2bf6ae86e32af31b5991cd84a607e1547a0132f6b653c4b76ecc26abbc4e"; shbts="1627117745\0546317830362\0541658653745:01f716bcf5ca94c711aa8ee17e52cf927685a30c29c89e0310cfe9f86589901109fd5b1e"; rur="RVA\05448065200129\0541658659405:01f7d96b5f9c1cf2396b6d00cbc7281da4dc2bb4c75a035bf4917e188315d170aec60aa2"; csrftoken=mWehV8ELhUeOnA4aWc43a7PplDLL0jNL',
+            'origin': 'https://www.instagram.com',
+            'referer': 'https://www.instagram.com/',
+            'sec-ch-ua': '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': generate_user_agent(),
+            'x-asbd-id': '437806',
+            'x-csrftoken': 'mWehV8ELhUeOnA4aWc43a7PplDLL0jNL',
+            'x-ig-app-id': '936619743392459',
+            'x-ig-www-claim': 'hmac.AR2oFTCuitCzXvttHXW3DD1kZLwzL7oauskQL1Jp6ogO6FF6',
+            'x-instagram-ajax': 'caee87137ae9',
+            'x-requested-with': 'XMLHttpRequest'
+        }
+        tim = str(time.time()).split('.')[1]
+        data1 = {
+            'username': zaid,
+            'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{tim}:hsfsfohsfso',#The passowrd Acunts hsfsfohsfso ok 
+            'queryParams': '{}',
+            'optIntoOneTap': 'false',#the open false in instagram
+            'trustedDeviceRecords': '{}'
+
+        }
+        rq = requests.post(c,headers=head1,data=data1).text
+
+        if ('"user":true,') in rq:
+            z+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {zaid}\nTime Wite : {t}\n')
+            tlg =(f'https://api.telegram.org/bot{took}/sendMessage?chat_id={iddd}&text=Hi Tools 7v.51\nEmail : {zaid}\nمتاح انستكرام \nالمطور زيد كريم @VBZ11\n')
+            ru= requests.post(tlg)
+            with open('sad.txt' , 'a') as g7:
+                g7.write(f"{zaid}\n")
+            #The Email True in instagram and Yahoo
+            #sleep(sl)
+        elif ('"user":false,') in rq:
+            a+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {zaid}\nTime Wite : {t}\n')
+            
+            
+        elif ('"Please wait a few minutes before you try again."') in rq:
+            t+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {zaid}\n Time Wite : {t}\n')
+            sleep(120)
+            #The time out in instagram Blook
+def op():
+    global a,z,t
+    user = 'zaidaliahmeadkareem31230_'
+        
+    url = 'https://login.aol.com/account/module/create?validateField=yid'
+    while True:
+        user1 = str(''.join(random.choice(user)for i in range(5))).lower()
+        
+
+
+        head = {
+            'Accept': '*/*',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Connection': 'keep-alive',
+            'Content-Length': '18536',
+            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Cookie': 'BX=05cdflhgh88dv&b=3&s=fa; GUC=AQEBAQFhFXNhHkIeKASA; rxx=230ufm9rd1p.2ffkvhk6&v=1; A1=d=AQABBL8hFGECEA1iv_3z3cem0COBi6yvsQIFEgEBAQFzFWEeYQAAAAAA_eMAAAcIvyEUYayvsQI&S=AQAAAngb50-m21aCLls9vcsvdIA; A3=d=AQABBL8hFGECEA1iv_3z3cem0COBi6yvsQIFEgEBAQFzFWEeYQAAAAAA_eMAAAcIvyEUYayvsQI&S=AQAAAngb50-m21aCLls9vcsvdIA; A1S=d=AQABBL8hFGECEA1iv_3z3cem0COBi6yvsQIFEgEBAQFzFWEeYQAAAAAA_eMAAAcIvyEUYayvsQI&S=AQAAAngb50-m21aCLls9vcsvdIA&j=WORLD; AS=v=1&s=9Ach1eVW&d=A6115734a|.jJjUM3.2Sq6mpRaeUvGOFaxkilDMMNq9Ri7WiuICAYOOQc8JzylVD7TqAyOQXyoGr3xjU5It2l8d2Tm2XplfzH_3CxVMv80ojV9Z2.2KK3pELyejomUkEej8.XfKekex.Y8YC.aN2I_2SK8dJrsij_oAiqz0F5q_AxGBEXANzyyOUk4SZBvgOyRlOVZZfqe1tH9zRhKo2pZ1sSrbHl3et7WTdq75c9ftrqF99EdnVhfX55FDU1s18vjW7yhqwnAR4wuzvLUp53LxbG0XAVElc29r1qDyJ5FaMTplnZzc8qs73k0YQ5CBNdeyLQh6_xlUZDPF3EaPrn9XaJEL_IRPJTt9lh7cFMDyMygjEjL3c9.vDyB7bwl6yDEgtWrB0TolID0D_m3WNruvGdsfqqTKHJO.tFLx00tnx_aYJqqVhmRTi_UgdGMAwv_Ns3eT_Ole8uf5okFWiVAN1Att2io_NuZsS3h6kOWMkER6k3h2isdL4pnCJPoskQTs2gDRo.CaRjcNBQk_v985XvaIGGYsw3Kcgm0ZZk.ni3fv.4uUvpxB431Xi_LLXeObPrKXrlLMVNiiAGEwv.0m5TtV41ib11dBba3jtsohTqUZpwIYEU4M4KF3G_N.2SfLRVYMUiNgOlO2ZLmxQmfWGPdysVpSo.UlJUUqEbKPZzJpH4Y_z8BWOeSjIEW9XOKCyf.ZeoXJufQVU5oS1V0_PydswVuYN7c2dOvWA.E7jrTMlPo3ZzaqshPohpubodq8ofYN9UowbOL8eYnyIKny.YvjJb6KLrCr0jersbNU1Z3pBHQutbA9l2iyl4RkMs01sRnL2PVa94n42RmMIEiVYvecUGO~A',
+            'Host': 'login.aol.com',
+            'Origin': 'https://login.aol.com',
+            'Referer': 'https://login.aol.com/account/create?intl=us&src=fp-us&.done=https%3A%2F%2Fapi.login.aol.com%2Foauth2%2Fauthorize%3Fclient_id%3Ddj0yJmk9ZXRrOURhMkt6bkl5JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWQ2%26intl%3Dus%26nonce%3DkYrCBuoE3NhBcpMPi7iWi4QTnplDEgs0%26redirect_uri%3Dhttps%253A%252F%252Foidc.www.aol.com%252Fcallback%26response_type%3Dcode%26scope%3Dmail-r%2Bopenid%2Bopenid2%2Bsdps-r%26src%3Dfp-us%26state%3DeyJhbGciOiJSUzI1NiIsImtpZCI6IjZmZjk0Y2RhZDExZTdjM2FjMDhkYzllYzNjNDQ4NDRiODdlMzY0ZjcifQ.eyJyZWRpcmVjdFVyaSI6Imh0dHBzOi8vd3d3LmFvbC5jb20vIn0.hlDqNBD0JrMZmY2k9lEi6-BfRidXnogtJt8aI-q2FdbvKg9c9EhckG0QVK5frTlhV8HY7Mato7D3ek-Nt078Z_i9Ug0gn53H3vkBoYG-J-SMqJt5MzG34rxdOa92nZlQ7nKaNrAI7K9s72YQchPBn433vFbOGBCkU_ZC_4NXa9E&specId=yidReg&done=https%3A%2F%2Fapi.login.aol.com%2Foauth2%2Fauthorize%3Fclient_id%3Ddj0yJmk9ZXRrOURhMkt6bkl5JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWQ2%26intl%3Dus%26nonce%3DkYrCBuoE3NhBcpMPi7iWi4QTnplDEgs0%26redirect_uri%3Dhttps%253A%252F%252Foidc.www.aol.com%252Fcallback%26response_type%3Dcode%26scope%3Dmail-r%2Bopenid%2Bopenid2%2Bsdps-r%26src%3Dfp-us%26state%3DeyJhbGciOiJSUzI1NiIsImtpZCI6IjZmZjk0Y2RhZDExZTdjM2FjMDhkYzllYzNjNDQ4NDRiODdlMzY0ZjcifQ.eyJyZWRpcmVjdFVyaSI6Imh0dHBzOi8vd3d3LmFvbC5jb20vIn0.hlDqNBD0JrMZmY2k9lEi6-BfRidXnogtJt8aI-q2FdbvKg9c9EhckG0QVK5frTlhV8HY7Mato7D3ek-Nt078Z_i9Ug0gn53H3vkBoYG-J-SMqJt5MzG34rxdOa92nZlQ7nKaNrAI7K9s72YQchPBn433vFbOGBCkU_ZC_4NXa9E',
+            'sec-ch-ua': '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"',
+            'sec-ch-ua-mobile': '?0',
+            'Sec-Fetch-Dest': 'empty',
+            'Sec-Fetch-Mode': 'cors',
+            'Sec-Fetch-Site': 'same-origin',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+            'X-Requested-With': 'XMLHttpRequest',
+        }
+        data = {
+            'browser-fp-data': '{"language":"en-US","colorDepth":24,"deviceMemory":8,"pixelRatio":1,"hardwareConcurrency":2,"timezoneOffset":-180,"timezone":"Asia/Baghdad","sessionStorage":1,"localStorage":1,"indexedDb":1,"openDatabase":1,"cpuClass":"unknown","platform":"Win32","doNotTrack":"unknown","plugins":{"count":3,"hash":"e43a8bc708fc490225cde0663b28278c"},"canvas":"canvas winding:yes~canvas","webgl":1,"webglVendorAndRenderer":"Google Inc.~Google SwiftShader","adBlock":0,"hasLiedLanguages":0,"hasLiedResolution":0,"hasLiedOs":0,"hasLiedBrowser":0,"touchSupport":{"points":0,"event":0,"start":0},"fonts":{"count":49,"hash":"411659924ff38420049ac402a30466bc"},"audio":"124.04347527516074","resolution":{"w":"1366","h":"768"},"availableResolution":{"w":"728","h":"1366"},"ts":{"serve":1628709339039,"render":1628709338648}}',
+            'specId': 'yidreg',
+            
+            'crumb': 'H4.yvLRdejE',
+            'acrumb': '9Ach1eVW',
+            'done': 'https://api.login.aol.com/oauth2/authorize?client_id=dj0yJmk9ZXRrOURhMkt6bkl5JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWQ2&intl=us&nonce=kYrCBuoE3NhBcpMPi7iWi4QTnplDEgs0&redirect_uri=https%3A%2F%2Foidc.www.aol.com%2Fcallback&response_type=code&scope=mail-r+openid+openid2+sdps-r&src=fp-us&state=eyJhbGciOiJSUzI1NiIsImtpZCI6IjZmZjk0Y2RhZDExZTdjM2FjMDhkYzllYzNjNDQ4NDRiODdlMzY0ZjcifQ.eyJyZWRpcmVjdFVyaSI6Imh0dHBzOi8vd3d3LmFvbC5jb20vIn0.hlDqNBD0JrMZmY2k9lEi6-BfRidXnogtJt8aI-q2FdbvKg9c9EhckG0QVK5frTlhV8HY7Mato7D3ek-Nt078Z_i9Ug0gn53H3vkBoYG-J-SMqJt5MzG34rxdOa92nZlQ7nKaNrAI7K9s72YQchPBn433vFbOGBCkU_ZC_4NXa9E',
+            
+            
+            'attrSetIndex': '0',
+            
+            'tos0': 'oath_freereg|us|en-US',
+            'firstName': 'dlsdl',
+            'lastName': 'alo',
+            'yid': user1,
+            'password': 'zaidkaream00A@',
+            'shortCountryCode': 'US',
+            'phone': '2097635173',
+            'mm': '1',
+            'dd': '5',
+            'yyyy': '2000',
+            'freeformGender': '',
+            'signup': ''
+        }
+        req = r.post(url,headers=head,data=data).text
+        #print(req)
+        if ('"yid"') in req:
+            a +=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {user1}')
+            
+        else:
+
+            z+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'Bad : {a}\nOK : {z}\nEmail : {user1}')
+            with open('k.txt','a') as f7:
+                f7.write(f'{user1}@aol.com\n')
+def iq():
+    global a,z,t
+    user = 'wrskmvcxzsawqrtgfhjnmkoilp_'
+    js = '12334567890'
+    
+
+    url = 'https://accounts.google.com/_/signup/webusernameavailability?hl=ar&_reqid=547979&rt=j'
+    while True:
+        us = str(''.join(random.choice(user)for i in range(4))).lower()
+        gd = str(''.join(random.choice(js)for i in range(3)))
+        cc = str(us)+gd
+        
+        hed = {
+            'accept': '*/*',
+            'accept-encoding': 'gzip, deflate, br',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-length': '1357',
+            'content-type': 'application/x-www-form-urlencoded;charset=UTF-8',
+            'cookie': 'SEARCH_SAMESITE=CgQIopMB; OGP=-19022552:; OGPC=19022552-1:19022591-1:; LSID=doritos|o.chat.google.com|o.gds.google.com|o.mail.google.com|s.IQ|s.blogger:BQinNGuXEaZIFBPuNz0PsOdmHfoFWQpIgj1vmDpbtkImU1R0kq3DmSULE0Cbd5aWHkmo0w.; __Host-1PLSID=doritos|o.chat.google.com|o.gds.google.com|o.mail.google.com|s.IQ|s.blogger:BQinNGuXEaZIFBPuNz0PsOdmHfoFWQpIgj1vmDpbtkImU1R04T6XBm3btNT_ctByJuAGrQ.; __Host-3PLSID=doritos|o.chat.google.com|o.gds.google.com|o.mail.google.com|s.IQ|s.blogger:BQinNGuXEaZIFBPuNz0PsOdmHfoFWQpIgj1vmDpbtkImU1R0NnadpITw93R1cvvu9CyKEg.; HSID=AXieXXbKfkn3GZmaB; SSID=Aab4OP391wOlPe7Oz; APISID=JaKAWmZWejimBuCW/Ay5uy3Opp2FeIslFB; SAPISID=sFZ6OV-D3UgcLflg/A3VXvP5LVnbF4tR6K; __Secure-1PAPISID=sFZ6OV-D3UgcLflg/A3VXvP5LVnbF4tR6K; __Secure-3PAPISID=sFZ6OV-D3UgcLflg/A3VXvP5LVnbF4tR6K; SID=BQinNAmsrOR3HE2ZFZk1hcXID6A-8wqpuwQv5UMb19yWN1eOuxeZeS8PH5PKtrH-WajY4w.; __Secure-1PSID=BQinNAmsrOR3HE2ZFZk1hcXID6A-8wqpuwQv5UMb19yWN1eO2ZbVlTA_NfZe873xJAXiKg.; __Secure-3PSID=BQinNAmsrOR3HE2ZFZk1hcXID6A-8wqpuwQv5UMb19yWN1eO-muJdhqKKTGgNJIelvpnBw.; ACCOUNT_CHOOSER=AFx_qI7MtRDq-I6VInZXU81nnvaPXSSqYzFBgPUCA9WXOdj8UzTnaGRhYySu2l5JEvKrzw1p85gTl2MQrjfpBERvoFGLSSal4R0Pk1JHXvQ7VqM3Y1E52YUT-YrZ6--THQ4y_yfThELCmiMVTf71Pbqf0wVYYEyY8uLPgiL6RpHWXnxSExo6AEbwI0YI_EenUDwRUeiduJ7Bik-wbax9PHIdEowS3zokbA; 1P_JAR=2021-09-13-10; NID=223=o8yCFhzRokkkxlr5wmDb-GsMq9bBoMEekRoxfM2KkxP8piOOX-Fgc1vFG3F4nCSU_Qc7D6FpDfFrw2HUtc-EIVQEqX7LKhGkgS1_rT3gzvtyxp98bj5oIKjTCyMPl4RrF5XqB-ucrrPjmeIfGlryUJtOp_lrRVrovDU0oH08lGHEN589h76HlT9FUAPV0eq3siNpnowYzlmnF76YMVx-G2rCOrMAb8htyDYDcHnyIjQ1EVQo6eYWXijKAixmXMQE_uxjpjsCcwJBWtUkQeeX1B1k2IMDTsD6n7QzVKmVv3D5jEjyEMY2EnfMoBXY-MPOdiyc2wgtTlaEMKG2NS6Ap_xvr8bbm0datrx3EYd2RGlD5X-VX6LV4j5l; __Secure-1PSIDCC=AJi4QfFprW5nXq9EsKmuzgmg4wZUs4hVwKse3W-bkLjp9Qmr6zONBOD1KEL0YHw-OsLgEzG-; __Host-GAPS=1:GImpBoBMlpAlJmMkqgeVxBsIa163HRUgCt2IeSY-eBZteyN4JDL7FXqTAbl0irGL6JnmmxZM--NH6T9BNHLbDeq9P0DDAA:yu0Z-Xtr5gy2QE_Y; SIDCC=AJi4QfFcRVHY1dun1lCt9FO6EpFKdGOleflWsH0JjnYfoh5s25HMxjOQB1-IWkO12Y77sD0xQg; __Secure-3PSIDCC=AJi4QfFGxMgoVLKaxHDemkIr5PfbXdKKggQsfmRHM9khrh6liIlyjvd6VpIWEwjABEohXeFKWw',
+            'google-accounts-xsrf': '1',
+            'origin': 'https://accounts.google.com',
+            'referer': 'https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=ar&dsh=S-1123097581%3A1631528304749024&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp',
+            'sec-ch-ua': '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': generate_user_agent(),
+            'x-chrome-id-consistency-request': 'version=1,client_id=77185425430.apps.googleusercontent.com,device_id=c6264e90-8773-4846-81ef-2445a4586cc3,signin_mode=all_accounts,signout_mode=show_confirmation',
+            'x-client-data': 'CKe1yQEIi7bJAQiktskBCMS2yQEIqZ3KAQj50MoBCJuLywEI7/LLAQi0+MsBCJ75ywEI+/nLAQiv+ssBCKL+ywEIvf7LAQie/8sB',
+        
+            'x-same-domain': '1'
+        }
+        data = {
+            'continue': 'https://mail.google.com/mail',
+            'hl': 'ar',
+            'service': 'mail',
+            'dsh': 'S-1123097581:1631528304749024',
+            'f.req': f'["AEThLlz_VT1jjcGOzsagHCKd9TxpvtSL5VW_PSDl9G3PGW9X6vZPw_D-ydy7JSvwGVI8zdE1Pbt9AaDrdbU2l_xxgwnNru0s6wYm8u9CB-7TKM96P4S16w_rbjAKuc3vKV3fi85GIqA1H7miG79yEdbc7N-5BjDZGQV_S8fWlUDRJKOQm8z2ehY2-Cy-u3QY9Iw7phzV93B6XdQ8yIW_OkS_tsJJGKh_sw","ali","mao","{cc}",true,"S-1123097581:1631528304749024",1]',
+            'at': 'AFoagUVfeo8LVbsN3fYDFmYlF9KRimMUSg:1631528356498',
+            'azt': 'AFoagUXFZ-eGXSAczqeEHzn2L1JFqNyEWw:1631528356498',
+            'cookiesDisabled': 'false',
+            'deviceinfo': '[null,null,null,[],null,"IQ",null,null,null,"GlifWebSignIn",null,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"c6264e90-8773-4846-81ef-2445a4586cc3",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,[],[]],null,null,null,null,null,null,[],null,null,null,[],[]],null,null,null,null,2,null,false,1,""]',
+            'gmscoreversion': 'undefined'
+
+        }
+        req = r.post(url,headers=hed,data=data).text
+        #print(req)
+        if ('"gf.wuar",1') in req:
+            z+=1
+            
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'\033[1;32mBad : {a}\nOK : {z}\nEmail 5 : {t}\nEmail : {cc}')
+            with open('k.txt','a') as f9:
+                f9.write(f'{cc}@gmail.com\n')
+        elif ('"gf.wuar",2') in req:
+            a+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'\033[1;32mBad : {a}\nOK : {z}\nEmail 5 : {t}\nEmail : {cc}')
+            
+        elif ('"عذرا، ولكن ينبغي ان يكون طول اسم المستخدم بين 6 و30 حرفا"') in req:
+            z+=1
+            os.system('cls'if os.name=='nt' else'clear')
+            print(f'\033[1;32mBad : {a}\nOK : {z}\nEmail 5 : {t}\nEmail : {cc}')
+print('\033[1;36m[1] - Email Yahoo\n[2] - Checker Email in Instagram\n[3] - Aol.Email\n[4] - Gmail\n')
+
+try:
+
+    zaid = int(input('\033[1;32mEnter Your //\ : '))
+    #int input Yes plaess zaid 
+    if zaid == 1 :
+        ooo()
+    elif zaid == 2:
+        www()
+    elif zaid == 3:
+        op()
+    elif zaid == 4 :
+        iq()
+    else:
+        print('No. '+zaid)
+except ValueError as error :
+    print('NO string..! , plaeass intager.1 or 2 ')
+    exit()
